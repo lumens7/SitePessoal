@@ -1,0 +1,71 @@
+{
+  "name": "Luís Felix",
+  "photo": "https://avatars.githubusercontent.com/u/142345222?v=4",
+  "location": "Santa Vitória - MG",
+  "phone": "(34) 9 9773-3335",
+  "email": "luisfelixnogueira@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "javaicon",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+      },
+      {
+        "name": "JavaScripticon",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+      },
+      {
+        "name": "postgresicon",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+      },
+      {
+        "name": "dockericon",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+      },
+      {
+        "name": "cicon",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+      },
+      {
+        "name": "springicon",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+      },
+      {
+        "name": "githubicon",
+        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+      }
+    ],
+    "softSkills": [
+      "Liderança",
+      "Facilidae de comunicação",
+      "Organização",
+      "Trabalho em Equipe",
+      "Comprometimento com Resultados",
+      "Flexibilidade"
+    ]
+  },
+  "languages": [
+    "Português BR",
+    "Inglês (iniciante)",
+    "Espanhol (iniciante)"
+  ],
+  "portfolio": [
+    {
+      "name": "PRODALERT",
+      "url": "http://google.com",
+      "github": true
+    },
+    {
+      "name": "SITE HORTIFRUTI",
+      "url": "http://google.com",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Developer",
+      "period": "null",
+      "description": "null"
+    } 
+  ]
+}
