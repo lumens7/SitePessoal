@@ -24,7 +24,7 @@ a:hover{
 .main::before,
 .main::after{
     content: '';
-    background-image: url('/NonaAula/assets/fotos/icons/backgroundtop.svg');
+    background-image: url('/assets/fotos/icons/backgroundtop.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;

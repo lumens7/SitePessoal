@@ -38,14 +38,14 @@
 }
 
 .informations .local::before{
-    background-image: url("/NonaAula/assets/fotos/icons/localIcon.svg");
+    background-image: url("/assets/fotos/icons/localIcon.svg");
 }
 .informations .whats::before{
-    background-image: url("/NonaAula/assets/fotos/icons/whatsIcon.svg");
+    background-image: url("/assets/fotos/icons/whatsIcon.svg");
 }
 
 .informations .mail::before{
-    background-image: url("/NonaAula/assets/fotos/icons/mailIcon.svg");
+    background-image: url("/assets/fotos/icons/mailIcon.svg");
 }
 
 @media only screen and (min-width: 768px)  {     
