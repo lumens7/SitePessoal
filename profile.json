@@ -8,31 +8,31 @@
     "hardSkills": [
       {
         "name": "javaicon",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/nodejs.png"
+        "logo": "https://raw.githubusercontent.com/lumens7/SitePessoal/refs/heads/main/assets/fotos/javaicon.png"
       },
       {
         "name": "JavaScripticon",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/java.png"
+        "logo": "https://raw.githubusercontent.com/lumens7/SitePessoal/refs/heads/main/assets/fotos/javaScripticon.png"
       },
       {
         "name": "postgresicon",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/angular.png"
+        "logo": "https://raw.githubusercontent.com/lumens7/SitePessoal/refs/heads/main/assets/fotos/postegresicon.png"
       },
       {
         "name": "dockericon",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/react.png"
+        "logo": "https://raw.githubusercontent.com/lumens7/SitePessoal/refs/heads/main/assets/fotos/dockericon.png"
       },
       {
         "name": "cicon",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/mongodb.png"
+        "logo": "https://raw.githubusercontent.com/lumens7/SitePessoal/refs/heads/main/assets/fotos/cicon.png"
       },
       {
         "name": "springicon",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "logo": "https://raw.githubusercontent.com/lumens7/SitePessoal/refs/heads/main/assets/fotos/Springboot.png"
       },
       {
         "name": "githubicon",
-        "logo": "https://raw.githubusercontent.com/digitalinnovationone/js-developer-portfolio/main/data/imgs/postgresql.png"
+        "logo": "https://raw.githubusercontent.com/lumens7/SitePessoal/refs/heads/main/assets/fotos/githubicon.png"
       }
     ],
     "softSkills": [
