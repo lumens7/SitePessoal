@@ -14,8 +14,9 @@ function updateProfile(profileData) {
     phone.href = `tel:${profileData.phone}`;
 
     const mail = document.getElementById('profileMail');
-    mail.innerText = profileData.email;
-    mail.href = `mailto:${profileData.email}`;
+    
+    mail.innerText = profileData.mail;
+    mail.href = `mailto:${profileData.mail}`;
 }
 
 function updateSoftSkills(profileData) {
