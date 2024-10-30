@@ -43,7 +43,7 @@
     height: 1.5rem;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('/assets/fotos/icons/arrow.svg');
+    background-image: url('https://raw.githubusercontent.com/lumens7/SitePessoal/7596ec7febab1ae747fe398c471569ad530395c6/assets/fotos/icons/arrow.svg');
     transition: .25s; 
 }
 .acordeon.open .trigger::after{

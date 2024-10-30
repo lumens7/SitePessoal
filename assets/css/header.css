@@ -38,14 +38,14 @@
 }
 
 .informations .local::before{
-    background-image: url("/assets/fotos/icons/localIcon.svg");
+    background-image: url("https://raw.githubusercontent.com/lumens7/SitePessoal/7596ec7febab1ae747fe398c471569ad530395c6/assets/fotos/icons/localIcon.svg");
 }
 .informations .whats::before{
-    background-image: url("/assets/fotos/icons/whatsIcon.svg");
+    background-image: url("https://raw.githubusercontent.com/lumens7/SitePessoal/7596ec7febab1ae747fe398c471569ad530395c6/assets/fotos/icons/whatsIcon.svg");
 }
 
 .informations .mail::before{
-    background-image: url("/assets/fotos/icons/mailIcon.svg");
+    background-image: url("https://raw.githubusercontent.com/lumens7/SitePessoal/7596ec7febab1ae747fe398c471569ad530395c6/assets/fotos/icons/mailIcon.svg");
 }
 
 @media only screen and (min-width: 768px)  {     

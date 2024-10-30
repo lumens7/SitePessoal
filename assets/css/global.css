@@ -24,7 +24,7 @@ a:hover{
 .main::before,
 .main::after{
     content: '';
-    background-image: url('/assets/fotos/icons/backgroundtop.svg');
+    background-image: url('https://raw.githubusercontent.com/lumens7/SitePessoal/7596ec7febab1ae747fe398c471569ad530395c6/assets/fotos/icons/backgroundtop.svg');
     background-repeat: no-repeat;
     background-size: contain;
     display: inline-block;
