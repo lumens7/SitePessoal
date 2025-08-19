@@ -3,42 +3,42 @@
     {
       "titulo": "HORTIFRUTI",
       "descricao": "Sistema web desenvolvido para que possa entender melhor sobre os alimentos da terra, como as frutas, legumes, filhas e raízes, e sobre como cuidar melhor da saúde com eles, ensinando receitas básicas mas bem gostosas.",
-      "imagem": "/assets/img/hortifruti.png",
+      "imagem": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/hortifruti.png",
       "link": "https://lumenshort.netlify.app/main",
       "status": "FINALIZADO"
     },
     {
       "titulo": "GAME POKEMON",
       "descricao": "Um jogo estilo Nintendo DS onde o jogador precisa identificar corretamente os Pokémon com base em suas imagens. Inspirado no visual retrô e na dinâmica clássica de quiz, com trilha de pontuação e rankings separados por dificuldade.",
-      "imagem": "/assets/img/game_pokemon.png",
+      "imagem": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/game_pokemon.png",
       "link": "https://game-pokemon-g88l.onrender.com/",
       "status": "FINALIZADO"
     },
     {
       "titulo": "PRODALERT",
       "descricao": "Site para contar a vida dos santos, curiosidades sobre eles, como morreram, orações e ensinamentos que deixaram (novenas). No site também conterá passagens da bíblia para dar mais curiosidade ao usuário de ler mais e entender mais. A aplicação conterá cadastro de usuários para que os mesmos possam receber por e-mail algumas coisas diárias como: uma passagem da bíblia, uma oração de um santo, uma musica católica dentre outras coisas com base nisso.",
-      "imagem": "/assets/img/home_page.png",
+      "imagem": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/home_page.png",
       "link": "https://github.com/lumens7/Sanctus",
       "status": "FINALIZADO"
     },
     {
       "titulo": "CAFETERIA",
       "descricao": "Sistema de gerenciamento para cafeteria desenvolvido em Spring Boot como parte dos estudos do Bootcamp DIO Deal - Spring Boot e Angular (17+)",
-      "imagem": "/assets/img/home_page.png",
+      "imagem": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/home_page.png",
       "link": "https://github.com/lumens7/Cafeteria_Lumens",
       "status": "FINALIZADO"
     },
     {
       "titulo": "SANCTUS",
       "descricao": "Sistema desenvolvido com o objetivo de reduzir o desperdício de alimentos por meio do controle de validade de produtos perecíveis. O projeto visa conscientizar comerciantes sobre a importância de um bom gerenciamento de estoque, reduzindo prejuízos financeiros e impactos ambientais.",
-      "imagem": "/assets/img/sanctus.png",
+      "imagem": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/sanctus.png",
       "link": "https://github.com/lumens7/Sanctus",
       "status" : "EM ANDAMENTO"
     },
     {
       "titulo": "VIDADOADA",
       "descricao": "Aplicação que visa ajudar pessoas a fazerem doações, visa ajudar as entidades que fazem doações a conseguirem mais doadores para ajudar os necessitados.",
-      "imagem": "/assets/img/vidadoada.png",
+      "imagem": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/vidadoada.png",
       "link": "https://github.com/lumens7/VidaDoada",
       "status":"EM ANDAMENTO"
     }
@@ -97,79 +97,79 @@
     "hardSkills": [
       {
         "name": "javaicon",
-        "logo": "/assets/img/svg/javaicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/javaicon.svg"
       },
       {
         "name": "JavaScripticon",
-        "logo": "/assets/img/svg/javascripticon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/javascripticon.svg"
       },
       {
         "name": "htmlicon",
-        "logo": "/assets/img/svg/htmlicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/htmlicon.svg"
       },
       {
         "name": "cssicon",
-        "logo": "/assets/img/svg/cssicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/cssicon.svg"
       },
       {
         "name": "cicon",
-        "logo": "/assets/img/svg/cicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/cicon.svg"
       },
       {
         "name": "cplusplusicon",
-        "logo": "/assets/img/svg/cplusplusicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/cplusplusicon.svg"
       },
       {
         "name": "pythonicon",
-        "logo": "/assets/img/svg/pythonicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/pythonicon.svg"
       },
       {
         "name": "godoticon",
-        "logo": "/assets/img/svg/godoticon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/godoticon.svg"
       },
       {
         "name": "reacticon",
-        "logo": "/assets/img/svg/reacticon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/reacticon.svg"
       },
       {
         "name": "dockericon",
-        "logo": "/assets/img/svg/dockericon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/dockericon.svg"
       },
       {
         "name": "springicon",
-        "logo": "/assets/img/svg/springicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/springicon.svg"
       },
       {
         "name": "springsecurityicon",
-        "logo": "/assets/img/svg/springsecurityicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/springsecurityicon.svg"
       },
       {
         "name": "githubicon",
-        "logo": "/assets/img/svg/githubicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/githubicon.svg"
       },
       {
         "name": "giticon",
-        "logo": "/assets/img/svg/giticon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/giticon.svg"
       },
       {
         "name": "postgresqlicon",
-        "logo": "/assets/img/svg/postgresqlicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/postgresqlicon.svg"
       },
       {
         "name": "oracleicon",
-        "logo": "/assets/img/svg/oracleicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/oracleicon.svg"
       },
       {
         "name": "mysqlicon",
-        "logo": "/assets/img/svg/mysqlicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/mysqlicon.svg"
       },
       {
         "name": "postmanicon",
-        "logo": "/assets/img/svg/postmanicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/postmanicon.svg"
       },
       {
         "name": "mavenicon",
-        "logo": "/assets/img/svg/mavenicon.svg"
+        "logo": "https://github.com/lumens7/SitePessoal/blob/main/assets/img/svg/mavenicon.svg"
       }
     ],
     "softSkills": [
@@ -189,27 +189,27 @@
   },
   "animacoes": [
     {
-      "path": "/assets/img/sprites/blink/spr_animal_sheep_basic_female_base_blink_east_",
+      "path": "https://github.com/lumens7/SitePessoal/tree/main/assets/img/sprites/blink/spr_animal_sheep_basic_female_base_blink_east_",
       "frames": 3
     },
     {
-      "path": "/assets/img/sprites/happy/spr_animal_sheep_basic_female_base_happy_east_",
+      "path": "https://github.com/lumens7/SitePessoal/tree/main/assets/img/sprites/happy/spr_animal_sheep_basic_female_base_happy_east_",
       "frames": 8
     },
     {
-      "path": "/assets/img/sprites/walk/spr_animal_sheep_basic_male_base_walk_east_",
+      "path": "https://github.com/lumens7/SitePessoal/tree/main/assets/img/sprites/walk/spr_animal_sheep_basic_male_base_walk_east_",
       "frames": 4
     },
     {
-      "path": "/assets/img/sprites/idle/spr_animal_sheep_basic_male_base_idle_2_east_",
+      "path": "https://github.com/lumens7/SitePessoal/tree/main/assets/img/sprites/idle/spr_animal_sheep_basic_male_base_idle_2_east_",
       "frames": 8
     },
     {
-      "path": "/assets/img/sprites/run/spr_animal_sheep_basic_female_base_run_east_",
+      "path": "https://github.com/lumens7/SitePessoal/tree/main/assets/img/sprites/run/spr_animal_sheep_basic_female_base_run_east_",
       "frames": 4
     },
     {
-      "path": "/assets/img/sprites/eat/spr_animal_sheep_basic_female_base_eat_east_",
+      "path": "https://github.com/lumens7/SitePessoal/tree/main/assets/img/sprites/eat/spr_animal_sheep_basic_female_base_eat_east_",
       "frames": 21
     }
   ],
