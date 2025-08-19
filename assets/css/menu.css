@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+:root {
+  --bg-color: #0d0d0d;
+  --text-color: #f1f1f1;
+  --box-bg: #111;
+  --hover-menu: #333;
+  --accent: #00ff00;
+  --painel-bk: #000;
+}
+
+body.light-mode {
+  --bg-color: #f5f5f5;
+  --text-color: #111;
+  --hover-menu: #d5d5d5;
+  --box-bg: #fff;
+  --accent: #1d7d1d;
+  --painel-bk: #f7f7f7;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+
+.switch {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  z-index: 1000;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  inset: 0;
+  background-color: #999;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider::before {
+  position: absolute;
+  content: '🌙';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: var(--box-bg);
+  border-radius: 50%;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+.slider::after{
+  background-color: #000;
+}
+
+input:checked + .slider {
+  background-color: #999;
+}
+
+input:checked + .slider::before {
+  transform: translateX(26px);
+  content: '☀️';
+}
+
+.menu-topo {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0.5rem;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+#menu-btn {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.icon_close {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+  cursor: pointer;
+}
+
+.navbar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.navbar.show {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.link_menu {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  border-radius: 1.25rem;
+  transition: all 0.5s ease;
+}
+
+.link_menu:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.icon_menu {
+  width: 2rem;
+  height: 1.5rem;
+  margin-right: 0.5rem;
+}
+
+
+.menu_interno {
+  position: static;
+  top: 3rem;
+  background: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 99;
+}
+
+.menu_interno .letra {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 10px;
+  background: var(--box-bg);
+  border-radius: 5px;
+  transition: 0.5s, transform 0.5s;
+}
+
+.menu_interno .letra:hover {
+  background: var(--hover-menu);
+}
+
+
+.fb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-color);
+}
+
+.fb h1 {
+  font-size: 2.5rem;
+  font-family: 'Fleur De Leah', cursive;
+  margin-bottom: 1rem;
+}
+
+.fb h2 {
+  align-self: flex-end;
+  text-align: right;
+  font-size: 1rem;
+  font-family: Arial, sans-serif;
+  margin-top: 0;
+  margin-right: 4rem;
+}
+
+@media (max-width: 768px) {
+  .fb h1 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .fb h2 {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 450px) {
+.fb h1 {
+    font-size: 2rem;
+    line-height: 1.4em;
+  }
+
+  .fb h2 {
+    font-size: 0.9rem;
+  }
+}

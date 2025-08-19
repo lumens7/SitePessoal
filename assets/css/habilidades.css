@@ -1,0 +1,153 @@
+.habilidades {
+  padding: 40px;
+  text-align: center;
+}
+
+.tipo-habilidade {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.btn-habilidade {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin: 0 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.25rem;
+  border-bottom: .1rem solid transparent;
+  transition: all 0.3s ease;
+}
+
+.btn-habilidade.active {
+  border-bottom: .2rem solid var(--hover-menu);
+}
+
+.painel {
+  margin-top: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+#painel-hard {
+  display: grid;
+  grid-template-columns: repeat(6, auto); /* 3 colunas iguais */
+  gap: 1rem;
+  padding: 0;
+  justify-items: center; 
+}
+
+#painel-hard img {
+  border-radius: 10rem;
+  background-color: #f5f5f5;
+  padding: .5rem;
+  width: 3rem;
+  height: 3rem;
+  object-fit: contain;
+  transition: transform 0.5s ease;
+}
+
+#painel-hard img:hover {
+  transform: scale(1.1);
+}
+
+#painel-soft {
+  display: grid;
+  grid-template-columns: repeat(2, auto); /* 3 colunas iguais */
+  gap: 1rem;
+  padding: 0;
+  margin-left: 10rem;
+  justify-items: start; 
+}
+
+#painel-soft .soft-skill {
+  font-size: 1.25rem;
+  padding: 1rem 2rem;
+  background: none;
+  text-align: start;
+}
+#painel-animado {
+  height: 100vh;
+  background: linear-gradient(to top, var(--bg-color), var(--bg-color));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sheep-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.sheep-sprite {
+  width: 15rem;
+  height: 15rem;
+  image-rendering: pixelated;
+  object-fit: contain;
+}
+
+/* Telas até 768px */
+@media (max-width: 768px) {
+  .tipo-habilidade {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  #painel-hard {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  #painel-soft {
+    margin-left: 0;
+    justify-items: center;
+  }
+
+  .soft-skill {
+    text-align: center;
+  }
+
+  .sheep-sprite {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+
+/* Telas até 450px */
+@media (max-width: 450px) {
+  .habilidades {
+    padding: 2rem 1rem;
+  }
+
+  .btn-habilidade {
+    margin: 0.5rem 0;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.1rem;
+  }
+
+  #painel-hard {
+    grid-template-columns: repeat(3, auto);
+  }
+
+  #painel-soft {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .sheep-container {
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+  }
+
+  .sheep-sprite {
+    width: 8rem;
+    height: 8rem;
+  }
+}

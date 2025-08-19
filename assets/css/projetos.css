@@ -1,0 +1,141 @@
+
+#led-container {
+  display: grid;
+  grid-template-columns: repeat(200, .45rem); /* Mais colunas para maior largura */
+  grid-template-rows: repeat(80, .45rem); /* Mais linhas para maior altura */
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  background-color: var(--painel-bk);
+}
+
+.led {
+  width: .4rem; 
+  height: .4rem;
+  margin: 1rem;
+  border-radius: 100%;
+  background-color: var(--hover-menu);
+  transition: background-color .5s ease-in-out;
+}
+
+.led.on {
+  background-color: var(--accent);
+}
+
+.galeria_pro {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
+}
+
+.projeto_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  background: var(--box-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  text-decoration: none;
+  color: var(--text-color);
+  transition: transform 0.5s ease;
+  box-shadow: 0 0 10px rgba(0, 255, 0, 0.1);
+}
+
+.projeto_card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 15px rgba(0, 255, 0, 0.3);
+}
+
+.projeto_card .texto {
+  flex: 1;
+}
+
+.projeto_card h2 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  color: var(--accent);
+}
+
+.projeto_card p {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.projeto_card .imagem {
+  flex-shrink: 0;
+  width: 12rem;
+  max-width: 40%;
+}
+
+.projeto_card .imagem img {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  object-fit: cover;
+}
+
+/* Telas até 768px (tablets) */
+@media (max-width: 768px) {
+  #led-container{
+    display: none;
+    transform: scale(0.2);
+  }
+  .galeria_pro {
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+  }
+
+  .projeto_card {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 1.5rem;
+  }
+
+  .projeto_card .imagem {
+    width: 100%;
+    max-width: none;
+    margin-top: 1rem;
+  }
+
+  .projeto_card .imagem img {
+    width: 100%;
+    height: auto;
+  }
+
+  .projeto_card h2 {
+    font-size: 1.3rem;
+  }
+
+  .projeto_card p {
+    font-size: 1rem;
+  }
+}
+
+/* Telas até 450px (celulares) */
+@media (max-width: 450px) {
+  .galeria_pro {
+    padding: 1.5rem 1rem;
+  }
+
+  .projeto_card {
+    padding: 1rem;
+  }
+
+  .projeto_card h2 {
+    font-size: 1.1rem;
+  }
+
+  .projeto_card p {
+    font-size: 0.95rem;
+  }
+
+  .projeto_card .imagem {
+    margin-top: 0.8rem;
+  }
+}

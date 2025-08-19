@@ -1,0 +1,175 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  font-family: 'Arial Black', sans-serif;
+  overflow: hidden;
+}
+
+/* Container principal */
+.lumens-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Cada bloco ocupa 1/6 da tela */
+.letter-block {
+  flex: 1;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 1s ease;
+  cursor: pointer;
+  overflow: hidden; /* Impede que o círculo ultrapasse o bloco */
+}
+
+/* Letras e palavras */
+.char {
+  font-size: 8rem;
+  color: #fff;
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+  z-index: 1;
+}
+
+.word {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #00ff00;
+  opacity: 0;
+  transition: opacity 1s, transform 1s;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Hover: esconde char e mostra word */
+.letter-block:hover .char {
+  opacity: 0;
+  transform: scale(1.2);
+}
+
+.letter-block:hover .word {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Círculo branco crescendo ao hover */
+.letter-block::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 1s ease;
+  z-index: 0;
+}
+
+.letter-block:hover::before {
+  transform: translate(-50%, -50%) scale(4);
+}
+
+@media (max-width: 768px) {
+  .lumens-container {
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  .letter-block {
+    flex: none;
+    height: 16.66vh; /* 100vh / 6 blocos */
+  }
+
+  .char {
+    font-size: 4rem;
+  }
+
+  .word {
+    font-size: 1.2rem;
+  }
+
+  .letter-block::before {
+    width: 120px;
+    height: 120px;
+    transition: transform 0.5s ease;
+  }
+
+  .letter-block:hover::before,
+  .letter-block:focus-visible::before,
+  .letter-block:active::before {
+    transform: translate(-50%, -50%) scale(4);
+  }
+
+  .letter-block:hover .char,
+  .letter-block:focus-visible .char,
+  .letter-block:active .char {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+
+  .letter-block:hover .word,
+  .letter-block:focus-visible .word,
+  .letter-block:active .word {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 450px) {
+  .char {
+    font-size: 3rem;
+  }
+
+  .word {
+    font-size: 1rem;
+  }
+
+  .letter-block::before {
+    width: 100px;
+    height: 100px;
+  }
+
+  .letter-block:hover::before,
+  .letter-block:focus-visible::before,
+  .letter-block:active::before {
+    transform: translate(-50%, -50%) scale(3.5);
+  }
+
+  .letter-block:hover .char,
+  .letter-block:focus-visible .char,
+  .letter-block:active .char {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+
+  .letter-block:hover .word,
+  .letter-block:focus-visible .word,
+  .letter-block:active .word {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .letter-block {
+    height: 16.66vh;
+  }
+
+  html, body {
+    overflow: auto;
+  }
+}

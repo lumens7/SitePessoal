@@ -1,0 +1,86 @@
+
+.container {
+  margin-left: 80px;
+  padding: 40px 20px;
+}
+
+.component {
+  margin-bottom: 80px;
+  background: var(--box-bg);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #222;
+  transition: transform 0.5s ease;
+  color: var(--text-color);
+}
+
+.component:hover {
+  transform: translateY(-5px);
+}
+
+.component h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: var(--accent);
+}
+
+.component p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.icon_secao {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+
+/* Tablet: até 768px */
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0;
+    padding: 2rem 1.2rem;
+  }
+
+  .component {
+    margin-bottom: 5rem;
+    padding: 1.2rem;
+  }
+
+  .component h2 {
+    font-size: 1.5em;
+  }
+
+  .component p {
+    font-size: 1em;
+  }
+
+  .icon_secao {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .menu_interno {
+    display: none;
+  }
+}
+
+/* Celulares: até 450px */
+@media (max-width: 450px) {
+  .container {
+    padding: 1.2rem 1rem;
+  }
+
+  .component {
+    padding: 1.2rem;
+  }
+
+  .component h2 {
+    font-size: 1.5em;
+  }
+
+  .component p {
+    font-size: 0.95em;
+  }
+
+}

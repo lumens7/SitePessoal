@@ -1,0 +1,247 @@
+{
+  "projetos": [
+    {
+      "titulo": "HORTIFRUTI",
+      "descricao": "Sistema web desenvolvido para que possa entender melhor sobre os alimentos da terra, como as frutas, legumes, filhas e raízes, e sobre como cuidar melhor da saúde com eles, ensinando receitas básicas mas bem gostosas.",
+      "imagem": "/assets/img/hortifruti.png",
+      "link": "https://lumenshort.netlify.app/main",
+      "status": "FINALIZADO"
+    },
+    {
+      "titulo": "GAME POKEMON",
+      "descricao": "Um jogo estilo Nintendo DS onde o jogador precisa identificar corretamente os Pokémon com base em suas imagens. Inspirado no visual retrô e na dinâmica clássica de quiz, com trilha de pontuação e rankings separados por dificuldade.",
+      "imagem": "/assets/img/game_pokemon.png",
+      "link": "https://game-pokemon-g88l.onrender.com/",
+      "status": "FINALIZADO"
+    },
+    {
+      "titulo": "PRODALERT",
+      "descricao": "Site para contar a vida dos santos, curiosidades sobre eles, como morreram, orações e ensinamentos que deixaram (novenas). No site também conterá passagens da bíblia para dar mais curiosidade ao usuário de ler mais e entender mais. A aplicação conterá cadastro de usuários para que os mesmos possam receber por e-mail algumas coisas diárias como: uma passagem da bíblia, uma oração de um santo, uma musica católica dentre outras coisas com base nisso.",
+      "imagem": "/assets/img/home_page.png",
+      "link": "https://github.com/lumens7/Sanctus",
+      "status": "FINALIZADO"
+    },
+    {
+      "titulo": "CAFETERIA",
+      "descricao": "Sistema de gerenciamento para cafeteria desenvolvido em Spring Boot como parte dos estudos do Bootcamp DIO Deal - Spring Boot e Angular (17+)",
+      "imagem": "/assets/img/home_page.png",
+      "link": "https://github.com/lumens7/Cafeteria_Lumens",
+      "status": "FINALIZADO"
+    },
+    {
+      "titulo": "SANCTUS",
+      "descricao": "Sistema desenvolvido com o objetivo de reduzir o desperdício de alimentos por meio do controle de validade de produtos perecíveis. O projeto visa conscientizar comerciantes sobre a importância de um bom gerenciamento de estoque, reduzindo prejuízos financeiros e impactos ambientais.",
+      "imagem": "/assets/img/sanctus.png",
+      "link": "https://github.com/lumens7/Sanctus",
+      "status" : "EM ANDAMENTO"
+    },
+    {
+      "titulo": "VIDADOADA",
+      "descricao": "Aplicação que visa ajudar pessoas a fazerem doações, visa ajudar as entidades que fazem doações a conseguirem mais doadores para ajudar os necessitados.",
+      "imagem": "/assets/img/vidadoada.png",
+      "link": "https://github.com/lumens7/VidaDoada",
+      "status":"EM ANDAMENTO"
+    }
+  ],
+  "versiculos": {
+    "projetos": {
+      "texto": "Mas alguém dirá: \"tu tens fé, e eu tenho obras\". Mostra-me a tua fé sem obras e eu mostrarei a minha fé pelas minhas obras.",
+      "autor": "Tiago 2:18"
+    },
+    "home": {
+      "texto": "Quanto a mim, não pretendo, jamais, gloriar-me, a não ser na cruz de nosso Senhor Jesus Cristo,<p> pela qual o mundo está crucificado para mim e eu para o mundo.",
+      "autor": "Gálatas 6:14"
+    },
+    "habilidades": {
+      "texto": "Temos dons diferentes, conforme a graça que nos foi conferida. Aquele que tem o dom da profecia, exerça-o conforme a fé.",
+      "autor": "Romanos 12:6"
+    },
+    "experiencia": {
+      "texto": "Combati o bom combate, completei a corrida, guardei a fé",
+      "autor": "2 Timóteo 4:7"
+    }
+  },
+  "valores_lumens": [
+    {
+      "id": "Lideranca",
+      "titulo": "Liderança",
+      "descricao": "Capacidade de guiar, inspirar e unir um grupo rumo a um objetivo comum."
+    },
+    {
+      "id": "Uniao",
+      "titulo": "União",
+      "descricao": "Conexão e empatia que fortalecem os vínculos do grupo."
+    },
+    {
+      "id": "Motivacao",
+      "titulo": "Motivação",
+      "descricao": "Energia interna que impulsiona a ação e persistência."
+    },
+    {
+      "id": "Excelencia",
+      "titulo": "Excelência",
+      "descricao": "Busca constante pelo melhor, com dedicação e qualidade."
+    },
+    {
+      "id": "Networking",
+      "titulo": "Networking",
+      "descricao": "Construção de relacionamentos que geram oportunidades e apoio."
+    },
+    {
+      "id": "Superacao",
+      "titulo": "Superação",
+      "descricao": "Capacidade de ultrapassar obstáculos com coragem e resiliência."
+    }
+  ],
+  "habilidades": {
+    "hardSkills": [
+      {
+        "name": "javaicon",
+        "logo": "/assets/img/svg/javaicon.svg"
+      },
+      {
+        "name": "JavaScripticon",
+        "logo": "/assets/img/svg/javascripticon.svg"
+      },
+      {
+        "name": "htmlicon",
+        "logo": "/assets/img/svg/htmlicon.svg"
+      },
+      {
+        "name": "cssicon",
+        "logo": "/assets/img/svg/cssicon.svg"
+      },
+      {
+        "name": "cicon",
+        "logo": "/assets/img/svg/cicon.svg"
+      },
+      {
+        "name": "cplusplusicon",
+        "logo": "/assets/img/svg/cplusplusicon.svg"
+      },
+      {
+        "name": "pythonicon",
+        "logo": "/assets/img/svg/pythonicon.svg"
+      },
+      {
+        "name": "godoticon",
+        "logo": "/assets/img/svg/godoticon.svg"
+      },
+      {
+        "name": "reacticon",
+        "logo": "/assets/img/svg/reacticon.svg"
+      },
+      {
+        "name": "dockericon",
+        "logo": "/assets/img/svg/dockericon.svg"
+      },
+      {
+        "name": "springicon",
+        "logo": "/assets/img/svg/springicon.svg"
+      },
+      {
+        "name": "springsecurityicon",
+        "logo": "/assets/img/svg/springsecurityicon.svg"
+      },
+      {
+        "name": "githubicon",
+        "logo": "/assets/img/svg/githubicon.svg"
+      },
+      {
+        "name": "giticon",
+        "logo": "/assets/img/svg/giticon.svg"
+      },
+      {
+        "name": "postgresqlicon",
+        "logo": "/assets/img/svg/postgresqlicon.svg"
+      },
+      {
+        "name": "oracleicon",
+        "logo": "/assets/img/svg/oracleicon.svg"
+      },
+      {
+        "name": "mysqlicon",
+        "logo": "/assets/img/svg/mysqlicon.svg"
+      },
+      {
+        "name": "postmanicon",
+        "logo": "/assets/img/svg/postmanicon.svg"
+      },
+      {
+        "name": "mavenicon",
+        "logo": "/assets/img/svg/mavenicon.svg"
+      }
+    ],
+    "softSkills": [
+      "Liderança",
+      "Curiosidade",
+      "Aprendizado Contínuo",
+      "Autonomia",
+      "Proatividade",
+      "Pensamento Lógico",
+      "Organização",
+      "Colaboração",
+      "Responsabilidade",
+      "Comunicação clara e Objetiva",
+      "Adaptabilidade",
+      "Resolução de conflitos"
+    ]
+  },
+  "animacoes": [
+    {
+      "path": "/assets/img/sprites/blink/spr_animal_sheep_basic_female_base_blink_east_",
+      "frames": 3
+    },
+    {
+      "path": "/assets/img/sprites/happy/spr_animal_sheep_basic_female_base_happy_east_",
+      "frames": 8
+    },
+    {
+      "path": "/assets/img/sprites/walk/spr_animal_sheep_basic_male_base_walk_east_",
+      "frames": 4
+    },
+    {
+      "path": "/assets/img/sprites/idle/spr_animal_sheep_basic_male_base_idle_2_east_",
+      "frames": 8
+    },
+    {
+      "path": "/assets/img/sprites/run/spr_animal_sheep_basic_female_base_run_east_",
+      "frames": 4
+    },
+    {
+      "path": "/assets/img/sprites/eat/spr_animal_sheep_basic_female_base_eat_east_",
+      "frames": 21
+    }
+  ],
+  "experiencias": [
+    {
+      "empresa": "Paiol Agronegócios",
+      "inicio": "08/01/2023",
+      "fim": "06/01/2024",
+      "cargo": "Auxiliar Administrativo",
+      "descricao": "Atividades principais de emissão e inserção no sistema de notas fiscais, emissão e cobrança de boletos e notas a prazo, dentre outras."
+    },
+    {
+      "empresa": "Oba Supermercado",
+      "inicio": "10/01/2024",
+      "fim": "30/10/2024",
+      "cargo": "Estoquista",
+      "descricao": "Atividade principal a auditoria de estoque de produtos bem como a conferência de lotes considerando a validade dos mesmos."
+    },
+    {
+      "empresa": "Oba Supermercado",
+      "inicio": "01/11/2024",
+      "fim": "16/04/2025",
+      "cargo": "Assistente Administrativo Financeiro",
+      "descricao": "Atividade principal a conciliação bancária, conferindo todas as entradas e saídas bancárias."
+    },
+    {
+      "empresa": "JALLES MACHADO",
+      "inicio": "17/04/2025",
+      "fim": "Atualmente",
+      "cargo": "Estagiário de Tecnologia da Informação",
+      "descricao": "Trabalho com atividade principal a ..."
+    }
+  ]
+
+}
