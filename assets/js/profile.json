@@ -65,32 +65,32 @@
     {
       "id": "Lideranca",
       "titulo": "Liderança",
-      "descricao": "Capacidade de guiar, inspirar e unir um grupo rumo a um objetivo comum."
+      "descricao": "É a capacidade de inspirar, orientar e mobilizar pessoas para alcançar objetivos em comum, promovendo o melhor de cada indivíduo. Um verdadeiro líder não apenas conduz, mas também ouve, aprende e fortalece o grupo com visão, empatia e responsabilidade. Liderança é servir com propósito e guiar com o exemplo."
     },
     {
       "id": "Uniao",
       "titulo": "União",
-      "descricao": "Conexão e empatia que fortalecem os vínculos do grupo."
+      "descricao": "Representa o elo que mantém um grupo coeso, forte e comprometido. É construída por meio da empatia, do respeito às diferenças e do espírito de colaboração. A união transforma esforços individuais em realizações coletivas, criando um ambiente onde todos se sentem valorizados e pertencentes."
     },
     {
       "id": "Motivacao",
       "titulo": "Motivação",
-      "descricao": "Energia interna que impulsiona a ação e persistência."
+      "descricao": "É a chama interior que impulsiona sonhos e transforma planos em ação. Nasce do propósito, da crença no que se faz e da vontade de ir além. A motivação sustenta a persistência diante dos desafios e mantém o entusiasmo mesmo diante das incertezas, sendo o combustível da superação e do crescimento."
     },
     {
       "id": "Excelencia",
       "titulo": "Excelência",
-      "descricao": "Busca constante pelo melhor, com dedicação e qualidade."
+      "descricao": "Vai além de fazer bem feito — é o compromisso contínuo com a melhoria, a dedicação aos detalhes e a busca por resultados excepcionais. Excelência é agir com responsabilidade, paixão e qualidade em cada atitude, sempre com o olhar voltado ao aprimoramento e à entrega do melhor de si."
     },
     {
       "id": "Networking",
       "titulo": "Networking",
-      "descricao": "Construção de relacionamentos que geram oportunidades e apoio."
+      "descricao": "É a arte de construir e cultivar conexões autênticas que ampliam horizontes, geram oportunidades e favorecem o crescimento mútuo. Um bom networking não se resume a contatos, mas sim a parcerias baseadas na troca, no apoio e no aprendizado compartilhado ao longo da caminhada profissional e pessoal."
     },
     {
       "id": "Superacao",
       "titulo": "Superação",
-      "descricao": "Capacidade de ultrapassar obstáculos com coragem e resiliência."
+      "descricao": "É a habilidade de transformar dificuldades em força, aprender com os fracassos e continuar mesmo quando tudo parece difícil. Superação é a prova de que os limites existem para serem vencidos com coragem, fé e resiliência. Cada obstáculo ultrapassado revela o poder interior de recomeçar mais forte."
     }
   ],
   "habilidades": {
