@@ -1,4 +1,4 @@
-fetch('assets/js/profile.json')
+fetch('js/profile.json')
   .then(response => {
     if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
     return response.json();

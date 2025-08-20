@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const container = document.getElementById('experiencias-container');
 
   try {
-    const res = await fetch('assets/js/profile.json');
+    const res = await fetch('js/profile.json');
     const profile = await res.json();
     const experiencias = profile.experiencias || [];
 
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
       card.innerHTML = `
         <div class="face front">
-          <img src="assets/img/marreta.png" alt="Ícone">
+          <img src="img/marreta.png" alt="Ícone">
           <h3>${exp.empresa}</h3>
         </div>
         <div class="face back">

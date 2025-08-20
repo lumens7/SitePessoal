@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   const frameDelay = 150;
 
   try {
-    const res = await fetch("assets/js/profile.json");
+    const res = await fetch("js/profile.json");
     const profile = await res.json();
 
     // === Versículo (habilidades) ===

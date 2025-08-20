@@ -97,79 +97,79 @@
     "hardSkills": [
       {
         "name": "javaicon",
-        "logo": "assets/img/svg/javaicon.svg"
+        "logo": "img/svg/javaicon.svg"
       },
       {
         "name": "JavaScripticon",
-        "logo": "assets/img/svg/javascripticon.svg"
+        "logo": "img/svg/javascripticon.svg"
       },
       {
         "name": "htmlicon",
-        "logo": "assets/img/svg/htmlicon.svg"
+        "logo": "img/svg/htmlicon.svg"
       },
       {
         "name": "cssicon",
-        "logo": "assets/img/svg/cssicon.svg"
+        "logo": "img/svg/cssicon.svg"
       },
       {
         "name": "cicon",
-        "logo": "assets/img/svg/cicon.svg"
+        "logo": "img/svg/cicon.svg"
       },
       {
         "name": "cplusplusicon",
-        "logo": "assets/img/svg/cplusplusicon.svg"
+        "logo": "img/svg/cplusplusicon.svg"
       },
       {
         "name": "pythonicon",
-        "logo": "assets/img/svg/pythonicon.svg"
+        "logo": "img/svg/pythonicon.svg"
       },
       {
         "name": "godoticon",
-        "logo": "assets/img/svg/godoticon.svg"
+        "logo": "img/svg/godoticon.svg"
       },
       {
         "name": "reacticon",
-        "logo": "assets/img/svg/reacticon.svg"
+        "logo": "img/svg/reacticon.svg"
       },
       {
         "name": "dockericon",
-        "logo": "assets/img/svg/dockericon.svg"
+        "logo": "img/svg/dockericon.svg"
       },
       {
         "name": "springicon",
-        "logo": "assets/img/svg/springicon.svg"
+        "logo": "img/svg/springicon.svg"
       },
       {
         "name": "springsecurityicon",
-        "logo": "assets/img/svg/springsecurityicon.svg"
+        "logo": "img/svg/springsecurityicon.svg"
       },
       {
         "name": "githubicon",
-        "logo": "assets/img/svg/githubicon.svg"
+        "logo": "img/svg/githubicon.svg"
       },
       {
         "name": "giticon",
-        "logo": "assets/img/svg/giticon.svg"
+        "logo": "img/svg/giticon.svg"
       },
       {
         "name": "postgresqlicon",
-        "logo": "assets/img/svg/postgresqlicon.svg"
+        "logo": "img/svg/postgresqlicon.svg"
       },
       {
         "name": "oracleicon",
-        "logo": "assets/img/svg/oracleicon.svg"
+        "logo": "img/svg/oracleicon.svg"
       },
       {
         "name": "mysqlicon",
-        "logo": "assets/img/svg/mysqlicon.svg"
+        "logo": "img/svg/mysqlicon.svg"
       },
       {
         "name": "postmanicon",
-        "logo": "assets/img/svg/postmanicon.svg"
+        "logo": "img/svg/postmanicon.svg"
       },
       {
         "name": "mavenicon",
-        "logo": "assets/img/svg/mavenicon.svg"
+        "logo": "img/svg/mavenicon.svg"
       }
     ],
     "softSkills": [
@@ -189,27 +189,27 @@
   },
   "animacoes": [
     {
-      "path": "assets/img/sprites/blink/spr_animal_sheep_basic_female_base_blink_east_",
+      "path": "img/sprites/blink/spr_animal_sheep_basic_female_base_blink_east_",
       "frames": 3
     },
     {
-      "path": "assets/img/sprites/happy/spr_animal_sheep_basic_female_base_happy_east_",
+      "path": "img/sprites/happy/spr_animal_sheep_basic_female_base_happy_east_",
       "frames": 8
     },
     {
-      "path": "assets/img/sprites/walk/spr_animal_sheep_basic_male_base_walk_east_",
+      "path": "img/sprites/walk/spr_animal_sheep_basic_male_base_walk_east_",
       "frames": 4
     },
     {
-      "path": "assets/img/sprites/idle/spr_animal_sheep_basic_male_base_idle_2_east_",
+      "path": "img/sprites/idle/spr_animal_sheep_basic_male_base_idle_2_east_",
       "frames": 8
     },
     {
-      "path": "assets/img/sprites/run/spr_animal_sheep_basic_female_base_run_east_",
+      "path": "img/sprites/run/spr_animal_sheep_basic_female_base_run_east_",
       "frames": 4
     },
     {
-      "path": "assets/img/sprites/eat/spr_animal_sheep_basic_female_base_eat_east_",
+      "path": "img/sprites/eat/spr_animal_sheep_basic_female_base_eat_east_",
       "frames": 21
     }
   ],
