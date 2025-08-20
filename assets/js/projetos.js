@@ -51,7 +51,7 @@ setInterval(animateText, 120);
 
 
 // CARREGAR DADOS DO profile.json
-fetch('/assets/js/profile.json')
+fetch('https://github.com/lumens7/SitePessoal/blob/main/assets/js/profile.json)
   .then(response => {
     if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
     return response.json();

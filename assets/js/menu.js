@@ -19,9 +19,9 @@ const icon = document.getElementById("menu-btn");
 // Função para atualizar o ícone
 function updateIcon() {
   if (body.classList.contains("light-mode")) {
-    icon.src = "/assets/img/svg/menu_light_mode.svg";
+    icon.src = "https://github.com/lumens7/SitePessoal/tree/main/assets/img/svg/menu_light_mode.svg";
   } else {
-    icon.src = "/assets/img/svg/menu_dark_mode.svg";
+    icon.src = "https://github.com/lumens7/SitePessoal/tree/main/assets/img/svg/menu_dark_mode.svg";
   }
 }
 
