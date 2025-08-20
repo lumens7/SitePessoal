@@ -3,42 +3,42 @@
     {
       "titulo": "HORTIFRUTI",
       "descricao": "Sistema web desenvolvido para que possa entender melhor sobre os alimentos da terra, como as frutas, legumes, filhas e raízes, e sobre como cuidar melhor da saúde com eles, ensinando receitas básicas mas bem gostosas.",
-      "imagem": "assets/img/hortifruti.png",
+      "imagem": "img/hortifruti.png",
       "link": "https://lumenshort.netlify.app/main",
       "status": "FINALIZADO"
     },
     {
       "titulo": "GAME POKEMON",
       "descricao": "Um jogo estilo Nintendo DS onde o jogador precisa identificar corretamente os Pokémon com base em suas imagens. Inspirado no visual retrô e na dinâmica clássica de quiz, com trilha de pontuação e rankings separados por dificuldade.",
-      "imagem": "assets/img/game_pokemon.png",
+      "imagem": "img/game_pokemon.png",
       "link": "https://game-pokemon-g88l.onrender.com/",
       "status": "FINALIZADO"
     },
     {
       "titulo": "PRODALERT",
       "descricao": "Site para contar a vida dos santos, curiosidades sobre eles, como morreram, orações e ensinamentos que deixaram (novenas). No site também conterá passagens da bíblia para dar mais curiosidade ao usuário de ler mais e entender mais. A aplicação conterá cadastro de usuários para que os mesmos possam receber por e-mail algumas coisas diárias como: uma passagem da bíblia, uma oração de um santo, uma musica católica dentre outras coisas com base nisso.",
-      "imagem": "assets/img/home_page.png",
-      "link": "https://github.com/lumens7/Sanctus",
+      "imagem": "img/home_page.png",
+      "link": "https://github.com/lumens7/ProdAlert",
       "status": "FINALIZADO"
     },
     {
       "titulo": "CAFETERIA",
       "descricao": "Sistema de gerenciamento para cafeteria desenvolvido em Spring Boot como parte dos estudos do Bootcamp DIO Deal - Spring Boot e Angular (17+)",
-      "imagem": "assets/img/home_page.png",
+      "imagem": "img/Cafeteria_lumens.png",
       "link": "https://github.com/lumens7/Cafeteria_Lumens",
       "status": "FINALIZADO"
     },
     {
       "titulo": "SANCTUS",
       "descricao": "Sistema desenvolvido com o objetivo de reduzir o desperdício de alimentos por meio do controle de validade de produtos perecíveis. O projeto visa conscientizar comerciantes sobre a importância de um bom gerenciamento de estoque, reduzindo prejuízos financeiros e impactos ambientais.",
-      "imagem": "assets/img/sanctus.png",
+      "imagem": "img/sanctus.png",
       "link": "https://github.com/lumens7/Sanctus",
       "status" : "EM ANDAMENTO"
     },
     {
       "titulo": "VIDADOADA",
       "descricao": "Aplicação que visa ajudar pessoas a fazerem doações, visa ajudar as entidades que fazem doações a conseguirem mais doadores para ajudar os necessitados.",
-      "imagem": "assets/img/vidadoada.png",
+      "imagem": "img/vidadoada.png",
       "link": "https://github.com/lumens7/VidaDoada",
       "status":"EM ANDAMENTO"
     }
