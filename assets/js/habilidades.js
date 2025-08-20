@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   const frameDelay = 150;
 
   try {
-    const res = await fetch("https://github.com/lumens7/SitePessoal/blob/main/assets/js/profile.json");
+    const res = await fetch("assets/js/profile.json");
     const profile = await res.json();
 
     // === Versículo (habilidades) ===
