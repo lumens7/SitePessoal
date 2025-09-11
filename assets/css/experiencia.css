@@ -95,6 +95,24 @@
   .card-experiencia {
     width: 100%;
     max-width: 20rem;
+    height: auto;
+    transform: none !important; /* remove rotação */
+  }
+
+  /* Desabilita o hover */
+  .card-experiencia:hover {
+    transform: none !important;
+  }
+
+  /* Oculta a frente e mostra apenas o back */
+  .card-experiencia .front {
+    display: none !important;
+  }
+
+  .card-experiencia .back {
+    position: relative;
+    transform: none !important;
+    backface-visibility: visible !important;
   }
 }
 

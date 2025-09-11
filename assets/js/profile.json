@@ -16,7 +16,7 @@
     },
     {
       "titulo": "PRODALERT",
-      "descricao": "Site para contar a vida dos santos, curiosidades sobre eles, como morreram, orações e ensinamentos que deixaram (novenas). No site também conterá passagens da bíblia para dar mais curiosidade ao usuário de ler mais e entender mais. A aplicação conterá cadastro de usuários para que os mesmos possam receber por e-mail algumas coisas diárias como: uma passagem da bíblia, uma oração de um santo, uma musica católica dentre outras coisas com base nisso.",
+      "descricao": "Sistema desenvolvido com o objetivo de reduzir o desperdício de alimentos por meio do controle de validade de produtos perecíveis. O projeto visa conscientizar comerciantes sobre a importância de um bom gerenciamento de estoque, reduzindo prejuízos financeiros e impactos ambientais.",
       "imagem": "img/home_page.png",
       "link": "https://github.com/lumens7/ProdAlert",
       "status": "FINALIZADO"
@@ -30,7 +30,7 @@
     },
     {
       "titulo": "SANCTUS",
-      "descricao": "Sistema desenvolvido com o objetivo de reduzir o desperdício de alimentos por meio do controle de validade de produtos perecíveis. O projeto visa conscientizar comerciantes sobre a importância de um bom gerenciamento de estoque, reduzindo prejuízos financeiros e impactos ambientais.",
+      "descricao": "Site para contar a vida dos santos, curiosidades sobre eles, como morreram, orações e ensinamentos que deixaram (novenas). No site também conterá passagens da bíblia para dar mais curiosidade ao usuário de ler mais e entender mais. A aplicação conterá cadastro de usuários para que os mesmos possam receber por e-mail algumas coisas diárias como: uma passagem da bíblia, uma oração de um santo, uma musica católica dentre outras coisas com base nisso.",
       "imagem": "img/Sanctus.png",
       "link": "https://github.com/lumens7/Sanctus",
       "status" : "EM ANDAMENTO"
