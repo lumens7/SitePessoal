@@ -41,6 +41,13 @@
       "imagem": "img/vidadoada.png",
       "link": "https://github.com/lumens7/VidaDoada",
       "status":"EM ANDAMENTO"
+    },
+    {
+      "titulo": "PLANTPLUS",
+      "descricao": "Plant Plus é uma plataforma online criada para ajudar pessoas a cuidarem melhor de suas plantas de forma simples e organizada. Com o Plant Plus, o usuário pode cadastrar suas plantas e ter acesso a informações importantes como tipo de planta, necessidades de rega, iluminação, cuidados especiais e acompanhamento da saúde ao longo do tempo.",
+      "imagem": "IMAGEM.png",
+      "link": "https://github.com/lumens7/PlantPlus",
+      "status":"FINALIZADO"
     }
   ],
   "versiculos": {
